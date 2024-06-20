@@ -1,11 +1,11 @@
-package com.tf4beta.ems.main.repository;
+package com.vinay.main.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.tf4beta.ems.main.entity.Employee;
+import com.vinay.main.entity.Employee;
 
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {

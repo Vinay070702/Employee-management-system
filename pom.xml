@@ -9,10 +9,10 @@
 		<version>2.5.8-SNAPSHOT</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tf4.ems.main</groupId>
-	<artifactId>spring-boot-ems-app</artifactId>
+	<groupId>com.vinay.main</groupId>
+	<artifactId>EMS-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>EMS-CRUD</name>
 	<description>Spring Boot EMS Application</description>
 	<properties>
@@ -79,15 +79,11 @@
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 
-
-
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
-
 
 		<dependency>
 			<groupId>jstl</groupId>

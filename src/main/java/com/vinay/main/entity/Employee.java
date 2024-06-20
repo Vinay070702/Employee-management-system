@@ -1,4 +1,4 @@
-package com.tf4beta.ems.main.entity;
+package com.vinay.main.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

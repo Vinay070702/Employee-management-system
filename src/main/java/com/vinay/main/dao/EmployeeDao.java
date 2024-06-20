@@ -1,4 +1,4 @@
-package com.tf4beta.ems.main.dao;
+package com.vinay.main.dao;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.tf4beta.ems.main.entity.Employee;
-import com.tf4beta.ems.main.rowmapper.EmployeeRowMapper;
+import com.vinay.main.entity.Employee;
+import com.vinay.main.rowmapper.EmployeeRowMapper;
 
 
 @Repository

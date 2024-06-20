@@ -13,6 +13,12 @@ Employee Management System CRUD project using Spring Boot,Spring JDBC, Thymeleaf
 
 •
 
+### Docker
+To create docker container. Execute the following commands:
+```bash
+docker compose up --build
+```
+
 # Tools and technologies
 
 •          JDK - Java 1.8

@@ -1,4 +1,4 @@
-package com.tf4beta.ems.main.controllers;
+package com.vinay.main.controllers;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import com.tf4beta.ems.main.entity.Employee;
-import com.tf4beta.ems.main.service.EmployeeService;
+import com.vinay.main.entity.Employee;
+import com.vinay.main.service.EmployeeService;
 
 @Controller
 @RequestMapping("/employees")

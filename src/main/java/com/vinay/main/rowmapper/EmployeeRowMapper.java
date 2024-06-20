@@ -1,11 +1,11 @@
-package com.tf4beta.ems.main.rowmapper;
+package com.vinay.main.rowmapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.tf4beta.ems.main.entity.Employee;
+import com.vinay.main.entity.Employee;
 
 public class EmployeeRowMapper implements RowMapper<Employee>{
 

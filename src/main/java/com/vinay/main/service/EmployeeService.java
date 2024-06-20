@@ -1,4 +1,4 @@
-package com.tf4beta.ems.main.service;
+package com.vinay.main.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import com.tf4beta.ems.main.dao.EmployeeDao;
-import com.tf4beta.ems.main.entity.Employee;
+import com.vinay.main.dao.EmployeeDao;
+import com.vinay.main.entity.Employee;
 
 @Service
 @Transactional
